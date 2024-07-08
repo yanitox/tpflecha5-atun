@@ -46,7 +46,7 @@ const Formulario = ({ setCitas, citas }) => {
   return (
     <form onSubmit={enviarForm} className={styles.Formulario}>
       <label className={styles.label}>Nombre Mascota</label>
-      <input id="mascota" type="text" className="u-full-width"  placeholder="Nombre Mascota" />
+      <input  id="mascota" type="text" className="u-full-width"  placeholder="Nombre Mascota" />
 
       <label className={styles.label}>Nombre Dueño</label>
       <input id="dueno" type="text" className="u-full-width" placeholder="Nombre dueño de la mascota" />
